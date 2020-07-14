@@ -1,0 +1,127 @@
+.planos {
+    background-color: var(--cinza-claro);
+    padding-top: 2.8125rem;
+    padding-bottom: 2.8125rem;
+
+}
+
+.c-planos__titulo {
+    color: var(--cinza-escuro);
+    font-family: var(--titulo);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.l-planos__lista--flex {
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content:space-between ;
+
+}
+
+
+
+.c-planos__item {
+
+    background-color: var(--branco);
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(33,33,33,0.3);
+    margin: 0 0rem 2rem 0rem;
+
+    max-width: 400px;
+    width: 100%;
+
+
+}
+
+
+
+.c-planos__titulo-cartao {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.75rem 0;
+    text-align: center;
+}
+
+.c-planos__titulo-cartao::after {
+    content: "";
+    position: relative;
+    display: block;
+    top: 0.75rem;
+    width: inherit;
+    border-bottom: 1px solid var(--cinza-claro-linha);
+}
+
+.c-planos--start {
+    color: var(--planos-cartao-start);
+    border-color:var(--planos-cartao-start);
+}
+.c-planos--ultra {
+    color: var(--planos-cartao-ultra);
+    border-color:var(--planos-cartao-ultra);
+}
+.c-planos--mega {
+    color: var(--planos-cartao-mega);
+    border-color:var(--planos-cartao-mega);
+}
+
+
+.c-planos__valor {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+    margin-top: 1.125rem;
+    margin-bottom: 1.8125rem;
+    text-align: center;
+
+}
+
+.c-planos__descricao {
+
+    padding: 0 2.8125rem;
+
+}
+
+.l-planos__descricao--flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.c-planos__texto {
+    line-height: 1.75rem;
+    font-size: 0.9375rem;
+    color:var(--fonte-cinza);
+}
+ .c-planos__texto:last-of-type {
+     margin-bottom: 1rem;
+}
+
+
+.c-planos__botao{
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+
+    .l-planos__lista--flex {
+        align-items: flex-end;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+
+    }
+
+    .c-planos__item:nth-child(2) {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+
+}

@@ -1,0 +1,63 @@
+/* flex-box */
+
+ .l-rodape--rede-social--flex {
+	display: flex;
+	flex:row wrap;
+	justify-content: center;
+
+	margin-bottom: 2rem ;
+}
+
+
+.l-rodape__navegacao--flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: flex-end;
+
+
+}
+
+
+
+/* atributos roda-pe */
+
+.c-rodape {
+	background-color: var(--bg-rodape);
+	padding-top: 2.5625rem ;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+
+.c-rodape__logo {
+	margin-bottom: 3.5625rem ;
+	display: inline-block;
+}
+
+.c-rodape__link-rede-sociais {
+	display: inline-block;
+	width: 2.625rem;
+	height: 2.625rem;
+}
+
+
+.c-rodape__item-rede-social:nth-child(2) {
+	margin: 0 2.4rem;
+}
+
+
+
+.c-rodape__item {
+	margin-bottom: 0.6875rem;
+}
+
+
+
+.c-rodape__link {
+	text-align: center;
+	display: inline-block;
+	color: var(--branco);
+	font-size: 1rem;
+	padding: 0.6875rem;
+}

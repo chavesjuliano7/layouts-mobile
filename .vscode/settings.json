@@ -1,0 +1,10 @@
+{
+   "typescript.tsserver.watchOptions": {},
+	"editor.minimap.enabled": false,
+   "editor.tabSize": 3,
+   "editor.wordWrap": "wordWrapColumn",
+   "editor.wordWrapColumn": 110,
+	"editor.fontLigatures": true,
+   "files.trimTrailingWhitespace": true,
+   "editor.formatOnPaste": true,
+}

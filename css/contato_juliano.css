@@ -1,0 +1,46 @@
+.c-contato {
+    padding-top: 1.8125rem;
+    padding-bottom: 1.875rem;
+
+}
+
+
+.l-contato-flex {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+
+.c-contato__titulo {
+    color: var(--cinza-escuro);
+    font-family: var(--titulo);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.c-contato__chamada {
+    margin-bottom: 1.1875rem;
+    text-align: center;
+}
+
+.c-contato__botao {
+    border-color: var(--cinza-escuro);
+    color: var(--cinza-escuro);
+
+}
+
+
+.c-contato__chamada-institucional {
+    color: var(--fonte-cinza);
+    font-size: 0.9375rem;
+}
+
+.c-contato__titulo {
+    margin-bottom: 2rem;
+}
